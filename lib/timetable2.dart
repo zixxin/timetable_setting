@@ -216,7 +216,7 @@ class Timetable2State extends State<Timetable2> {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(width: 200.0),
+        Container(width: 180.0),
         SizedBox(
           width: 80,
           height: 35,
