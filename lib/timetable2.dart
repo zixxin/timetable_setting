@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:timetable_compare_setting/provider/bottom_navigation_provider.dart';
-import 'package:provider/provider.dart';
+//import 'package:timetable_compare_setting/provider/bottom_navigation_provider.dart';
+//import 'package:provider/provider.dart';
 
 class Timetable2 extends StatefulWidget {
   @override
@@ -14,7 +14,7 @@ class Timetable2State extends State<Timetable2> {
   String dropdownvalue3 = '친구 선택';
   String dropdownvalue4 = '친구 선택';
   var items = ['친구 선택', '송다빈', '윤지인', '백지훈', '조형우', '맹주찬', '이오주'];
-  BottomNavigationProvider _bottomNavigationProvider;
+  //BottomNavigationProvider _bottomNavigationProvider;
 
   @override
   Widget build(BuildContext context) {
@@ -142,11 +142,13 @@ class Timetable2State extends State<Timetable2> {
                   ),
                   Container(height: 40.0),
                   _checkButton(),
+                  /*
                   _bottomNavigationProvider = Provider.of<BottomNavigationProvider>(context);
                   return Scaffold(
                     body: _navigationBody(),
                     bottomNavigationBar: _bottomNavigationBarWidget(),
                   );
+                  */
                 ],
               ),
             ),
@@ -293,6 +295,7 @@ class Timetable2State extends State<Timetable2> {
   }
   */
 
+  /*
   Widget _bottomNavigationBarWidget() {
     return BottomNavigationBar(
       items: [
@@ -307,4 +310,5 @@ class Timetable2State extends State<Timetable2> {
       },
     );
   }
+  */
 }
