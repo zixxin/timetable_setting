@@ -1,16 +1,9 @@
 # timetable_compare_setting
+시간표 비교 설정 화면 구현
 
-A new Flutter project.
+* Figma로 만든 예상 구현 화면
+<img width="241" alt="Screen Shot 2021-07-24 at 4 37 51 PM" src="https://user-images.githubusercontent.com/74345861/126861260-3774af58-eb57-41c3-869a-dbb4b5ca41ae.png">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* 직접 구현해낸 화면
+<img width="482" alt="Screen Shot 2021-07-26 at 2 22 06 PM" src="https://user-images.githubusercontent.com/74345861/126937133-2c5c4935-70be-4d4a-80a5-b373ca38591a.png">
+<img width="482" alt="Screen Shot 2021-07-26 at 2 22 18 PM" src="https://user-images.githubusercontent.com/74345861/126937136-42489273-4569-4728-8551-123f821ccef1.png">
